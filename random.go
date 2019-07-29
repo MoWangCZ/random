@@ -9,6 +9,6 @@ import (
 func RandomString() string {
 	rand.Seed(time.Now().UnixNano())
 	rd := rand.Int63()
-	rs := fmt.Sprintf("Rand v1:%d", rd)
+	rs := fmt.Sprintf("Rand main v1:%d", rd)
 	return rs
 }
